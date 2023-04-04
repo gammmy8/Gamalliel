@@ -1,0 +1,36 @@
+const NFTs = []
+
+function mintNFT(_nftag, _body, _bodyColor, _eyeWear, _aptitude) {
+    const NFT = {
+        "nftag":  _nftag,
+        "body": _body,
+        "bodyColor": _bodyColor,
+        "eyeWear": _eyeWear,
+        "aptitude": _aptitude
+    }
+    NFTs.push (NFT);
+    console.log ("Minted: " + _nftag);
+}
+
+function listNFTs() {
+    for(let i = 0; i < NFTs.length; i++){
+        console.log("\nID:\t\t\t\t" + (i + 1));
+        console.log("\nNFTag: \t\t\t" + NFTs[i].nftag);
+        console.log("Body: \t\t\t" + NFTs[i].body);
+        console.log("Body Color: \t" + NFTs[i].bodyColor);
+        console.log("Eye Wear: \t\t" + NFTs[i].eyeWear);
+        console.log("Aptitude: \t\t" + NFTs[i].aptitude);
+    }
+
+}
+
+function getTotalSupply () {
+    console.log("\nNumber of NFT: \t" + NFTs.length);
+}
+
+mintNFT ("Mad Doug", "Muscular", "Gray", "Shades", "Just Mad");
+mintNFT ("Kinky Kitty", "Your ideal bud", "Red", "Beach Glasses", "All she can do is just being pretty");
+mintNFT ("Ducky", "Ducking Sexy", "Purple", "Goggles", "Swimming sometimes overthinking");
+mintNFT ("Cris P. Bacon", "Round and Crowned", "Pink", "Burger-like shaped glasses with a lettuce in it", "Is eating a talent? Then...");
+listNFTs();
+getTotalSupply();

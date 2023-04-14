@@ -9,12 +9,12 @@ pragma solidity 0.8.19;
 
 contract Me {
     
-   string public Name = "Gamalliel Tamaca";
-   string public Course = "BSIT";
-   string public EmailAddress = "8213858@ntc.edu.ph";
-   string public Section = "2.3";
+    string public Name = "Gamalliel Tamaca";
+    string public Course = "BSIT";
+    string public Email_Address = "8213858@ntc.edu.ph";
+    string public Section = "2.3";
 
-   uint public Age = 20;
+    uint public Age = 20;
 
 }
 

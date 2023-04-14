@@ -2,10 +2,12 @@ Overview:
 
 Hi, My name is Gamalliel Tamaca from BSIT 2.3 and these are my sample reposetories for my tasks and projects for Metacrafters. 
 
-Usage:
+Licensce: 
 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
+
+Usage: 
 
 contract Me {
     
@@ -18,6 +20,6 @@ contract Me {
 
 }
 
-License:
 
-Me Contract is released under MIT Licencse
+
+

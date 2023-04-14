@@ -18,6 +18,6 @@ contract Me {
 
 }
 
-
+Posted repositories are for educational use only.
 
 

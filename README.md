@@ -36,11 +36,9 @@ Once ran, test the token by pressing the "Deploy & run transactions" button on t
 Authors: 
 
 Gamalliel Tamaca
-
 8213858@ntc.edu.ph
 
 License
-
 NTC Token project is under the MIT License
 
 

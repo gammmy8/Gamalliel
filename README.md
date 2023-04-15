@@ -5,11 +5,13 @@ NTC Token was created to exhibit the lessons we have learned from this coourse. 
 NTC Token is a sample smart contract using Solidity for evaluation purposes. This smart contract will execute the basic functions of this token including, mapping function (the checking of balance), minting function (the adding of the amount to the total supply) and the burning function (the removal of token from the total supply). NTC Token will be our first project that will serve as our first stage of achieving that Web3 ambition.
 
 Like other smart contracts on the blockchain. NTC Token will be ran at Remix or Remix IDE (https://remix.ethereum.org/) - is a no-setup tool with a GUI for developing smart contracts. To run this code the user must input the license identifer to be followed by the IDE's version:
-          // SPDX-License-Identifier: MIT
+        
+        // SPDX-License-Identifier: MIT
              pragma solidity 0.8.19;
           
 And to be followed by the token's characters together with its functions:
-     contract NTCToken {
+    
+    contract NTCToken {
     
           string public TokenName = "NTC Token";
           string public TokenSymbol = "NTC";

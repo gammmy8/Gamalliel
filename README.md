@@ -34,10 +34,13 @@ And to be followed by the token's characters together with its functions:
 Once ran, test the token by pressing the "Deploy & run transactions" button on the left side panel. Proceed by choosing "NTC Token" on the "Contract" section and press "deploy" afterwards. Finally, test all the functions.
 
 Authors: 
+
 Gamalliel Tamaca
+
 8213858@ntc.edu.ph
 
 License
+
 NTC Token project is under the MIT License
 
 

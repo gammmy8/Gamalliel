@@ -15,8 +15,8 @@ contract NTCToken {
     }
 
     function burn(address _address, uint _amount) public {
-        totalSupply -= _amount;
-        balances[_address] -= _amount;
+        if(balances[_address] >= _amount)
+            totalSupply -= _amount;
+            balances[_address] -= _amount;
     }
-
 }

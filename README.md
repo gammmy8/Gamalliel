@@ -37,7 +37,7 @@ contract NTCToken {
             balances[_address] -= _amount;
         }
     }
-}
+    }
 ## Help
 
 If issues occur, please execute diagnostics and do online researches. For further assistance kindly reach out to the author.

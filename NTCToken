@@ -5,7 +5,7 @@ contract NTCToken {
     
     string public TokenName = "NTC Token";
     string public TokenSymbol = "NTC";
-    uint totalSupply = 0;
+    uint public totalSupply = 0;
     
     mapping(address => uint) public balances;
 
@@ -15,8 +15,9 @@ contract NTCToken {
     }
 
     function burn(address _address, uint _amount) public {
-        if(balances[_address] >= _amount)
+        if(balances[_address] >= _amount) {
             totalSupply -= _amount;
             balances[_address] -= _amount;
+        }
     }
 }

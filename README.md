@@ -40,7 +40,7 @@ contract NTCToken {
 }
 ## Help
 
-// If issues occur, please execute diagnostics and do online researches. For further assistance kindly reach out to the author.
+If issues occur, please execute diagnostics and do online researches. For further assistance kindly reach out to the author.
 
 
 
@@ -48,7 +48,9 @@ contract NTCToken {
 
 Gamalliel N. Tamaca
 
-8213858@ntc.edu.ph
+Email: 8213858@ntc.edu.ph
+
+Discord: gammmy #5689
 
 ## License
 

@@ -40,7 +40,7 @@ contract NTCToken {
     }
 ## Help
 
-If issues occur, please execute diagnostics and do online researches. For further assistance kindly reach out to the author.
+If issues occur, please execute diagnostics and check the past lessons from the module regarding the issue. For further assistance kindly reach out to the author.
 
 
 
@@ -54,4 +54,4 @@ Discord: gammmy #5689
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
